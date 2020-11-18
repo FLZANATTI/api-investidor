@@ -16,4 +16,4 @@ app.use(bodyParse.urlencoded({ extended: false }));
 require('./Controllers/AcoesController')(app);
 require('./Controllers/CarteraController')(app);
 
-app.listen(process.env.PORT || 3500);
+app.listen(process.env.PORT || 3510);
