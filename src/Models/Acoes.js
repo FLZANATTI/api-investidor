@@ -1,4 +1,4 @@
-const mongoose = require("../Database");
+const mongoose = require('mongoose');
 
 const AcoesSchema = new mongoose.Schema({
   Ticker: {
